@@ -1,19 +1,19 @@
-console.log("Hello World!");
+//console.log("Hello World!");
 var greenbutton=document.getElementById("green");
 if (greenbutton){
     greenbutton.addEventListener('click', calAllert);
     greenbutton.addEventListener('mouseover', banana);
-    greenbutton.addEventListener('mouseout', orange);
+    //greenbutton.addEventListener('mouseout', orange);
 
 }
 
-function calAllert (){
-    alert ("Call me")
+function calAllert(){
+    alert("Call me")
 }
 
 //console.log(greenbutton);
 
-function banana () {
+function banana() {
     //alert ("You CAlled");
     greenbutton.innerHTML="I got clicked";
  
